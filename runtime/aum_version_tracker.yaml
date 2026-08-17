@@ -1,0 +1,36 @@
+# AUM Protocol Version Tracker
+# 维护规则: 增量编辑，只追加记录，不删除已有记录
+# 更新权限: ACE Runtime 云端兜底 (Keeper)
+
+repository: zhangapple21-web/aum-protocol
+url: https://github.com/zhangapple21-web/aum-protocol
+
+# 当前版本
+current_version: v1.0
+current_version_date: 2026-07-14
+current_changelog_sha: 2dd27e9664df478894140daed1f18a510049727d
+current_repo_head: c4ed2ea371c1f791a8c3cfb52d3a5925d4ee50fa
+
+# 最后检查
+last_checked: 2026-08-17
+last_checked_by: ACE Runtime 云端兜底 (Keeper)
+last_check_result: "AUM v1.0 — 无更新"
+
+# 版本历史 (追加制，不删除)
+version_history:
+  - version: v1.0
+    date: 2026-07-14
+    changelog_sha: 2dd27e9664df478894140daed1f18a510049727d
+    repo_head: c4ed2ea371c1f791a8c3cfb52d3a5925d4ee50fa
+    summary: "Initial release — Mission framework, Dynamic Role, Exit Criteria, Discovery Mode, Civilization Observation Protocol, Git Observation Workflow, Repository First Rule, 12 Permanent Axioms + Core Axiom"
+    first_recorded: 2026-07-17
+    source: mine-seed/02_MEMORY/aum_version.json
+
+# 检查日志 (追加制)
+check_log:
+  - date: 2026-07-17
+    result: "首次记录。AUM v1.0，CHANGELOG SHA 2dd27e9，无版本变更。"
+    source: mine-seed/02_MEMORY/aum_version.json
+  - date: 2026-08-17
+    result: "AUM v1.0 — 无更新。距上次版本发布34天，CHANGELOG SHA 未变。"
+    checked_by: "ACE Runtime 云端兜底 (Keeper)"
